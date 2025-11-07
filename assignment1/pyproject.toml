@@ -1,0 +1,14 @@
+[project]
+name = "NLP assignment1"
+version = "0.1.0"
+description = "crawl corpus and calcuate entropy"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    matplotlib,
+    requests,
+    aiohttp,
+    beautifulsoup4,
+    numpy,
+    jieba,
+]
