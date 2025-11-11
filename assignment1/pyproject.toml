@@ -5,10 +5,10 @@ description = "crawl corpus and calcuate entropy"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
-    matplotlib,
-    requests,
-    aiohttp,
-    beautifulsoup4,
-    numpy,
-    jieba,
+    "matplotlib",
+    "requests",
+    "aiohttp",
+    "beautifulsoup4",
+    "numpy",
+    "jieba",
 ]
