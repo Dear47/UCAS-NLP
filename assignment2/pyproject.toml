@@ -1,0 +1,17 @@
+[project]
+name = "lm-ppl-comparison"
+version = "0.1.0"
+description = "对比前馈神经网络(FNN)、循环神经网络(RNN)和自注意力机制(Transformer)在语言模型困惑度上的表现"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Dear47", email = "daisiuki471@gmail.com" }
+]
+dependencies = [
+    "torch>=2.1.0",
+    "numpy>=1.24.0",
+    "matplotlib>=3.10.7",
+    "tqdm",
+    "wandb",
+]
